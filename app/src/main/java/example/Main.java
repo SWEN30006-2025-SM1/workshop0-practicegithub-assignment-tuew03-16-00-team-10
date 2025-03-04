@@ -8,5 +8,12 @@ public class Main {
         System.out.println("multiply = " + calculator.multiply(3, 5));
         System.out.println("divide = " + calculator.divide(6, 3));
         System.out.println("HELLO");
+
+        System.out.println("Yuting test her second device");
+
+        Test myTest = new Test();
+        System.out.println(myTest.getTestMessage());
+        myTest.setTestMessage("HAHA!!");
+        System.out.println(myTest.getTestMessage());
     }
 }
